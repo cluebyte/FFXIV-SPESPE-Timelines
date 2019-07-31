@@ -45,7 +45,7 @@
     <a time="089" text="Pure Light" sync="Eden Prime begins casting Pure Light." notice="Stack behind boss." />
     <a time="101" text="Dimensional Shift" sync="Eden Prime begins casting Dimensional Shift." notice="Raid AOE." />
     <a time="113" text="Eden's Gravity" sync="Eden Prime begins casting Eden's Gravity." notice="Raid AOE." />
-    <a time="124" text="Eden's Flare" sync="Eden Prime begins casting Eden's Flare." notice="Stack on boss" />
+    <a time="124" text="Eden's Flare" sync="Eden Prime begins casting Eden's Flare." notice="Stack on hitbox" />
     <a time="136" text="Vice and Virtue" sync="Eden Prime begins casting Vice and Virtue." notice="Tank busters" />
     <a time="146" text="Spear of Paradise" sync="Eden Prime begins casting Spear of Paradise." notice="Tank swap" />
     <a time="154" text="Vice and Virtue" sync="Eden Prime begins casting Vice and Virtue." notice="DPS spread" />
@@ -57,7 +57,6 @@
     <a time="235" text="Dimensional Shift" sync="Eden Prime begins casting Dimensional Shift." notice="Raid AOE." />
     <a time="247" text="Eden's Gravity" sync="Eden Prime begins casting Eden's Gravity." notice="Raid AOE." />
     <a time="259" text="Eden's Flare" sync="Eden Prime begins casting Eden's Flare." notice="Stack on hitbox." />
-    <a time="270" text="Paradise Regained" sync="Eden Prime begins casting Paradise Regained." notice="Paradise Regained." />
     <a time="276" text="Vice and Virtue" sync="Eden Prime begins casting Vice and Virtue." notice="Protect the president" />
     <a time="289" text="Vice and Virtue" sync="Eden Prime begins casting Vice and Virtue." notice="Partner stack" />
     <a time="303" text="Delta Attack" sync="Eden Prime begins casting Delta Attack." notice="DPS stack behind, tanks front" />
