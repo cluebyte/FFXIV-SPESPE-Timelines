@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<timeline>
+  <name>Eden's Gate: Resurrection (Savage)</name>
+  <rev>rev1</rev>
+  <description>Eden's Gate: Resurrection (Savage)</description>
+  <author>cluebyte</author>
+  <license>CC BY-SA</license>
+  <zone>Eden's Gate: Resurrection (Savage)</zone>
+  <locale>EN</locale>
+
+  <entry>Phase 1</entry>
+  <start>0039:Engage!</start>
+  
+  <default target-element="Activity" target-attr="notice-d" value="Both" />
+  <default target-element="Activity" target-attr="notice-o" value="-5" />
+  
+<!--   <t sync="0039:Engage!" sync-count="1">
+    <load target="Phase 1" truncate="true"/>
+  </t> -->
+
+  <s name="Phase 1">
+    <a time="006" text="Eden's Gravity" sync="Eden Prime begins casting Eden's Gravity." notice="Raid AOE" />
+    <a time="016" text="Vice and Virtue" sync="Eden Prime begins casting Vice and Virtue." notice="DPS spread" />
+    <a time="026" text="Eden's Flare" sync="Eden Prime begins casting Eden's Flare." notice="Stack on hitbox" />
+    <a time="041" text="Vice and Virtue" sync="Eden Prime begins casting Vice and Virtue." notice="Tank busters" />
+    <a time="051" text="Spear of Paradise" sync="Eden Prime begins casting Spear of Paradise." notice="Tank swap" />
+    <a time="059" text="Vice and Virtue" sync="Eden Prime begins casting Vice and Virtue." notice="Healers pass prey" />
+    <a time="072" text="Pure Light" sync="Eden Prime begins casting Pure Light." notice="Stack behind boss." />
+    <a time="085" text="Delta Attack" sync="Eden Prime begins casting Delta Attack." notice="Corners." />
+    <a time="098" text="Dimensional Shift" sync="Eden Prime begins casting Dimensional Shift." notice="Raid AOE." />
+    <a time="105" text="Paradise Lost" sync="Eden Prime begins casting Paradise Lost." notice="Ranged kite AOE" />
+    <a time="111" text="Pure Beam" sync="Eden Prime begins casting Pure Beam." notice="Clock positions" />
+    <a time="124" text="Pure Light" sync="Eden Prime begins casting Pure Light." notice="Stack behind boss." />
+    <a time="135" text="Dimensional Shift" sync="Eden Prime begins casting Dimensional Shift." notice="Raid AOE." />
+    <a time="145" text="Fragor Maximus" sync="Eden Prime begins casting Fragor Maximus." notice="Adds." goto="Phase 2 (Adds)"/>
+  </s>
+
+  <s name="Phase 2 (Adds)">
+    <a time="005" text="Mana Boost" sync="The guardian of paradise readies Mana Boost." notice="Silence adds." />
+    <a time="038" text="But where is the boost?" sync="Ready to unleash Eternal Breath." notice="AFK" />
+    <t sync="Eden Prime starts using Paradise Regained on Eden Prime." goto="Phase 3" />
+  </s>
+
+  <s name="Phase 3">
+    <a time="005" text="Vice and Virtue" sync="Eden Prime begins casting Vice and Virtue." notice="Protect the president." />
+    <a time="013" text="Vice and Virtue" sync="Eden Prime begins casting Vice and Virtue." notice="Partner stack" />
+    <a time="027" text="Delta Attack" sync="Eden Prime begins casting Delta Attack." notice="DPS stack behind, tanks front" />
+    <a time="038" text="Vice and Virtue" sync="Eden Prime begins casting Vice and Virtue." notice="DPS grab prey" />
+    <a time="049" text="Spear of Paradise" sync="Eden Prime begins casting Spear of Paradise." notice="Tank swap." />
+    <a time="062" text="Dimensional Shift" sync="Eden Prime begins casting Dimensional Shift." notice="Disco balls." />
+    <a time="068" text="Pure Beam" sync="Eden Prime begins casting Pure Beam." notice="Aim beams away from boss." />
+    <a time="089" text="Pure Light" sync="Eden Prime begins casting Pure Light." notice="Stack behind boss." />
+    <a time="101" text="Dimensional Shift" sync="Eden Prime begins casting Dimensional Shift." notice="Raid AOE." />
+    <a time="113" text="Eden's Gravity" sync="Eden Prime begins casting Eden's Gravity." notice="Raid AOE." />
+    <a time="124" text="Eden's Flare" sync="Eden Prime begins casting Eden's Flare." notice="Stack on boss" />
+    <a time="136" text="Vice and Virtue" sync="Eden Prime begins casting Vice and Virtue." notice="Tank busters" />
+    <a time="146" text="Spear of Paradise" sync="Eden Prime begins casting Spear of Paradise." notice="Tank swap" />
+    <a time="154" text="Vice and Virtue" sync="Eden Prime begins casting Vice and Virtue." notice="DPS spread" />
+    <a time="169" text="Delta Attack" sync="Eden Prime begins casting Delta Attack." notice="Corners" />
+    <a time="180" text="Vice and Virtue" sync="Eden Prime begins casting Vice and Virtue." notice="Healers pass prey" />
+    <a time="196" text="Dimensional Shift" sync="Eden Prime begins casting Dimensional Shift." notice="Disco balls." />
+    <a time="202" text="Pure Beam" sync="Eden Prime begins casting Pure Beam." notice="Aim beams away from boss" />
+    <a time="224" text="Pure Light" sync="Eden Prime begins casting Pure Light." notice="Stack behind boss." />
+    <a time="235" text="Dimensional Shift" sync="Eden Prime begins casting Dimensional Shift." notice="Raid AOE." />
+    <a time="247" text="Eden's Gravity" sync="Eden Prime begins casting Eden's Gravity." notice="Raid AOE." />
+    <a time="259" text="Eden's Flare" sync="Eden Prime begins casting Eden's Flare." notice="Stack on hitbox." />
+    <a time="270" text="Paradise Regained" sync="Eden Prime begins casting Paradise Regained." notice="Paradise Regained." />
+    <a time="276" text="Vice and Virtue" sync="Eden Prime begins casting Vice and Virtue." notice="Protect the president" />
+    <a time="289" text="Vice and Virtue" sync="Eden Prime begins casting Vice and Virtue." notice="Partner stack" />
+    <a time="303" text="Delta Attack" sync="Eden Prime begins casting Delta Attack." notice="DPS stack behind, tanks front" />
+    <a time="320" text="Fragor Maximus" sync="Eden Prime begins casting Fragor Maximus." notice="Enrage"/>
+  </s>
+</timeline>
