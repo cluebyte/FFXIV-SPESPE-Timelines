@@ -11,13 +11,6 @@
   <entry>Phase 1</entry>
   <start>0039:Engage!</start>
   
-  <default target-element="Activity" target-attr="notice-d" value="Both" />
-  <default target-element="Activity" target-attr="notice-o" value="-5" />
-  
-<!--   <t sync="0039:Engage!" sync-count="1">
-    <load target="Phase 1" truncate="true"/>
-  </t> -->
-
   <s name="Phase 1">
     <a time="006" text="Eden's Gravity" sync="Eden Prime begins casting Eden's Gravity." notice="Raid AOE" />
     <a time="016" text="Vice and Virtue" sync="Eden Prime begins casting Vice and Virtue." notice="DPS spread" />
